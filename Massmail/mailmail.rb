@@ -1,0 +1,6 @@
+#!ruby
+#
+
+require 'fastercsv'
+
+
