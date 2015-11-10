@@ -1,0 +1,5 @@
+#!ruby
+#
+
+require 'gd2'
+
