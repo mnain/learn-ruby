@@ -1,6 +1,7 @@
 # ruby script for web server
 require 'socket'
 port = (ARGV[0] || 6090).to_i
+puts "Launch webserver on port #{port}"
 server = TCPServer.new('localhost', port)
 while (session = server.accept)
   puts "Request: #{session.gets}"
